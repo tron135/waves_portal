@@ -13,3 +13,6 @@ def addleads(request):
 
 def enquiry(request):
     return render(request, 'candidates/enquiryform.html')
+
+def admission(request):
+    return render(request, 'candidates/admission.html')
